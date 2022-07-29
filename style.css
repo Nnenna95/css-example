@@ -1,0 +1,51 @@
+body {
+    background-color: blue;
+}
+
+.big-text {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 1px;
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.content {
+    margin: 0 auto;
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    text-transform: uppercase;
+    
+}
+
+.container {
+     display: flex;
+     flex-direction: row;
+     width: 554px;
+     flex-wrap: wrap;
+}
+
+#flash {
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+
+.inline {
+     display: inline !important;
+}
+
+.block {
+    display: block;
+}
